@@ -12,6 +12,7 @@ tracing = { version = "0.1", features = ["log"] }
 tracing-subscriber = { version = "0.3", default-features = false, features = ["fmt"] }
 rand = "0.8.5"
 url = "2.3.1"
+reqwest = { version = "0.11.12", features = ["json", "stream"] }
 # Documentation: https://docs.rs/vercel_runtime/latest/vercel_runtime
 vercel_runtime = { version = "1.0.2" }
 
@@ -23,6 +24,10 @@ vercel_runtime = { version = "1.0.2" }
 [[bin]]
 name = "hello"
 path = "api/hello.rs"
+
+[[bin]]
+name = "http"
+path = "api/http.rs"
 
 # Note that you need to provide unique names for each binary:
 [[bin]]
