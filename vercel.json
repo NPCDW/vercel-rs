@@ -1,6 +1,11 @@
 {
   "outputDirectory": "public",
   "functions": {
+    "api/*.rs": {
+      "memory": 128,
+      "maxDuration": 10,
+      "runtime": "vercel-rust@4.0.2"
+    },
     "api/**/*.rs": {
       "memory": 128,
       "maxDuration": 10,
