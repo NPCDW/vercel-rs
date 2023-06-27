@@ -14,7 +14,7 @@ vercel dev
 ## test url
 
 ```
-/api/hello.rs
-/api/http.rs
-/api/user/any.rs
+/api/hello
+/api/http
+/api/user/any
 ```
